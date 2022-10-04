@@ -3,3 +3,11 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+void WeekEndDay (int num)
+{
+    if(num==6 | num==7)
+       Console.Write($"{num} -> да");
+    else
+       Console.Write($"{num} -> нет");
+}
+WeekEndDay (1); 
