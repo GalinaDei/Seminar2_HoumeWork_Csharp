@@ -6,6 +6,7 @@
 void GetSecondFigure (int num)
 {
     string str = num.ToString();
+    Console.Write($"{num} -> ");
     Console.WriteLine(str[1]);
     }
 GetSecondFigure(678);   
